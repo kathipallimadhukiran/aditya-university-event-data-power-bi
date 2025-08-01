@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "ADITYA UNIVERSIITY  POWER BI  PROJECT"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "88d1df3a-17be-4ac3-bf6d-eef69ed4ced7"
+  }
+}

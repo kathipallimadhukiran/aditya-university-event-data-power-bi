@@ -1,0 +1,146 @@
+table 'test veda'
+	lineageTag: 769d0f1d-ca52-4d18-9fdf-204b56c7c6ce
+
+	column _id
+		dataType: string
+		lineageTag: 111c44b8-f880-4be1-8894-82e32bbd6202
+		summarizeBy: none
+		sourceColumn: _id
+
+		annotation SummarizationSetBy = Automatic
+
+	column userTeamCode
+		dataType: string
+		lineageTag: b7fdbd39-c1f4-4ff7-854b-9f9fb1b87566
+		summarizeBy: none
+		sourceColumn: userTeamCode
+
+		annotation SummarizationSetBy = Automatic
+
+	column userRollNumber
+		dataType: string
+		lineageTag: 57e59a82-17dd-4b9d-8c46-19276d66c883
+		summarizeBy: none
+		sourceColumn: userRollNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column userName
+		dataType: string
+		lineageTag: 6fa64f9b-2656-4563-9656-c41ab48be527
+		summarizeBy: none
+		sourceColumn: userName
+
+		annotation SummarizationSetBy = Automatic
+
+	column userMobile
+		dataType: int64
+		formatString: 0
+		lineageTag: 9fe57349-e70e-4f91-9fbc-89a732edf6e3
+		summarizeBy: sum
+		sourceColumn: userMobile
+
+		annotation SummarizationSetBy = Automatic
+
+	column userCollege
+		dataType: string
+		lineageTag: 481803cd-a506-4718-9a91-b67762377dbb
+		summarizeBy: none
+		sourceColumn: userCollege
+
+		annotation SummarizationSetBy = Automatic
+
+	column userEmail
+		dataType: string
+		lineageTag: d9ff4751-ce87-4724-9584-bc1ff4c09b80
+		summarizeBy: none
+		sourceColumn: userEmail
+
+		annotation SummarizationSetBy = Automatic
+
+	column userGender
+		dataType: string
+		lineageTag: 67cf174b-33a2-47b9-83f5-0286d44dce7e
+		summarizeBy: none
+		sourceColumn: userGender
+
+		annotation SummarizationSetBy = Automatic
+
+	column userDepartment
+		dataType: string
+		lineageTag: 376594c5-9c1f-433b-848e-60779a49f5a5
+		summarizeBy: none
+		sourceColumn: userDepartment
+
+		annotation SummarizationSetBy = Automatic
+
+	column userLocation
+		dataType: string
+		lineageTag: 92e36916-b53a-407c-83f5-9ff26b277f99
+		summarizeBy: none
+		sourceColumn: userLocation
+
+		annotation SummarizationSetBy = Automatic
+
+	column userYear
+		dataType: int64
+		formatString: 0
+		lineageTag: bff6ef75-1094-4b36-b616-205458818209
+		summarizeBy: sum
+		sourceColumn: userYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column userEventCategory
+		dataType: string
+		lineageTag: bb941341-9dc3-4592-a710-1c6ab6c35e54
+		summarizeBy: none
+		sourceColumn: userEventCategory
+
+		annotation SummarizationSetBy = Automatic
+
+	column userEvent
+		dataType: string
+		lineageTag: 6fb59e91-698c-44a3-8818-8243e39f914b
+		summarizeBy: none
+		sourceColumn: userEvent
+
+		annotation SummarizationSetBy = Automatic
+
+	column userTeamsize
+		dataType: int64
+		formatString: 0
+		lineageTag: a68cd46b-0b57-433c-9ecb-f69f28503b32
+		summarizeBy: sum
+		sourceColumn: userTeamsize
+
+		annotation SummarizationSetBy = Automatic
+
+	column userAccomodation
+		dataType: string
+		lineageTag: 7654d470-12c4-4642-8191-70e260f560ad
+		summarizeBy: none
+		sourceColumn: userAccomodation
+
+		annotation SummarizationSetBy = Automatic
+
+	column otherCollege
+		dataType: string
+		lineageTag: 0a76e91f-9102-48e4-993a-507c0f470e3b
+		summarizeBy: none
+		sourceColumn: otherCollege
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'test veda' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\kathi\Downloads\test.veda.csv"),[Delimiter=",", Columns=16, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"_id", type text}, {"userTeamCode", type text}, {"userRollNumber", type text}, {"userName", type text}, {"userMobile", Int64.Type}, {"userCollege", type text}, {"userEmail", type text}, {"userGender", type text}, {"userDepartment", type text}, {"userLocation", type text}, {"userYear", Int64.Type}, {"userEventCategory", type text}, {"userEvent", type text}, {"userTeamsize", Int64.Type}, {"userAccomodation", type text}, {"otherCollege", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

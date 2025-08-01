@@ -1,0 +1,130 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":\"5.59\"},\"customTheme\":{\"name\":\"AccessibleTidal\",\"type\":2,\"version\":\"5.65\"}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 1,
+  "pods": [
+    {
+      "boundSection": "2af33e68903a3ec1f4cf",
+      "config": "{}",
+      "name": "a34b9ec606d06395743a",
+      "parameters": "[{\"name\":\"304f9c3eb45ec77e4975\",\"boundFilter\":\"e2ce48887deb7cd97888\",\"fieldExpr\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"test veda\"}},\"Property\":\"userYear\"}},\"asAggregation\":true}]",
+      "referenceScope": 1,
+      "type": 1
+    }
+  ],
+  "publicCustomVisuals": [
+    "BusinessFlowF39DAE8D57A743EF89F5C3809DEE2B67",
+    "ZoomChartsDrillDownPieProC062D62DA5CE45ECB95B7B1D0E5DA558"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "1339712501840250149105131214619452.jpg",
+            "path": "1339712501840250149105131214619452.jpg",
+            "type": 100
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "AccessibleTidal",
+            "path": "BuiltInThemes/AccessibleTidal.json",
+            "type": 201
+          },
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}},\"url\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}}}],\"outspace\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#59a472'\"}}}}},\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'133971250184025014.jpg'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"1339712501840250149105131214619452.jpg\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"73D\"}}}}}]}}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[{\"name\":\"e2ce48887deb7cd97888\",\"expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"test veda\"}},\"Property\":\"userYear\"}},\"type\":\"Categorical\",\"howCreated\":5}]",
+      "height": 720.00,
+      "name": "2af33e68903a3ec1f4cf",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"047e32f101adf10fdaa3\",\"layouts\":[{\"id\":0,\"position\":{\"x\":712.7889209837216,\"y\":88.32114029641228,\"z\":4000,\"width\":553.5620765056825,\"height\":352.0406014631644,\"tabOrder\":4000}},{\"id\":1,\"position\":{\"x\":0,\"y\":366,\"z\":4000,\"width\":324,\"height\":206.04943820224722,\"tabOrder\":4000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"test veda.userEvent\",\"active\":true},{\"queryRef\":\"test veda.userEventCategory\"}],\"Y\":[{\"queryRef\":\"Count(test veda._id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"test veda\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"userEvent\"},\"Name\":\"test veda.userEvent\",\"NativeReferenceName\":\"Event\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"userEventCategory\"},\"Name\":\"test veda.userEventCategory\",\"NativeReferenceName\":\"Event Category\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2},\"Name\":\"Count(test veda._id)\",\"NativeReferenceName\":\"Total Count\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2}}}]},\"columnProperties\":{\"test veda.userEvent\":{\"displayName\":\"Event\"},\"test veda.userEventCategory\":{\"displayName\":\"Event Category\"},\"Count(test veda._id)\":{\"displayName\":\"Total Count\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"layout\":[{\"properties\":{}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'EVENT CATEGORY'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]}}}",
+          "filters": "[{\"name\":\"5b34dee59081092f3a8d\",\"filter\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"test veda\",\"Type\":0}],\"Where\":[{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"userEventCategory\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"userEvent\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'PETROLEUM TECHNOLOGY'\"}},{\"Literal\":{\"Value\":\"'TECHNICAL EASSY'\"}}]]}}}}}]},\"type\":\"Exclude\",\"howCreated\":4,\"filterExpressionMetadata\":{\"expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"test veda\"}},\"Property\":\"userEventCategory\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"test veda\"}},\"Property\":\"userEvent\"}}],\"cachedValueItems\":[{\"identities\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"test veda\"}},\"Property\":\"userEventCategory\"}},\"Right\":{\"Literal\":{\"Value\":\"'PETROLEUM TECHNOLOGY'\"}}}}},{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"test veda\"}},\"Property\":\"userEvent\"}},\"Right\":{\"Literal\":{\"Value\":\"'TECHNICAL EASSY'\"}}}}}],\"valueMap\":{\"0\":\"PETROLEUM TECHNOLOGY\",\"1\":\"TECHNICAL EASSY\"}}]}}]",
+          "height": 352.04,
+          "width": 553.56,
+          "x": 712.79,
+          "y": 88.32,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"15ecea0fc0e40ec14bd9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":3.7318791674540397,\"z\":5003,\"width\":1280.0345544367356,\"height\":75.88154307156547,\"tabOrder\":5003}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"ADITYA \",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"28pt\",\"color\":\"#f75e11\"}},{\"value\":\"UNIVERSITY\",\"textStyle\":{\"fontWeight\":\"bold\",\"fontFamily\":\"Segoe (Bold)\",\"fontSize\":\"28pt\",\"color\":\"#0f3d6e\"}}],\"horizontalTextAlignment\":\"center\"},{\"textRuns\":[{\"value\":\"VEDA2K23 EVENT DATA                                                                                                                             K MADHU KIRAN\"}],\"horizontalTextAlignment\":\"right\"}]}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"padding\":[{\"properties\":{\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 75.88,
+          "width": 1280.03,
+          "x": 0.00,
+          "y": 3.73,
+          "z": 5003.00
+        },
+        {
+          "config": "{\"name\":\"8622202569487529e64d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":714.0328807062062,\"y\":451.5573792619388,\"z\":5001,\"width\":553.5620765056825,\"height\":251.27986394190535,\"tabOrder\":5001}},{\"id\":1,\"position\":{\"x\":0,\"y\":1290,\"z\":5001,\"width\":323.99999999999994,\"height\":251.27986394190535,\"tabOrder\":5001}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"test veda.userEventCategory\",\"active\":true}],\"Values\":[{\"queryRef\":\"CountNonNull(test veda._id)\"}],\"Details\":[{\"queryRef\":\"test veda.userGender\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"test veda\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"userEventCategory\"},\"Name\":\"test veda.userEventCategory\",\"NativeReferenceName\":\"userEventCategory\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2},\"Name\":\"CountNonNull(test veda._id)\",\"NativeReferenceName\":\"Total\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"userGender\"},\"Name\":\"test veda.userGender\",\"NativeReferenceName\":\"Gender\"}]},\"columnProperties\":{\"test veda.userGender\":{\"displayName\":\"Gender\"},\"CountNonNull(test veda._id)\":{\"displayName\":\"Total\"}},\"drillFilterOtherVisuals\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total by Event Category and Gender'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 251.28,
+          "width": 553.56,
+          "x": 714.03,
+          "y": 451.56,
+          "z": 5001.00
+        },
+        {
+          "config": "{\"name\":\"88a4e3cd10647a76ab45\",\"layouts\":[{\"id\":0,\"position\":{\"x\":8.707718057392759,\"y\":255.01174310935937,\"z\":5002,\"width\":286.1107361714764,\"height\":447.82550009448477,\"tabOrder\":5002}},{\"id\":1,\"position\":{\"x\":0,\"y\":580,\"z\":5002,\"width\":324,\"height\":446.40000000000003,\"tabOrder\":5002}}],\"singleVisual\":{\"visualType\":\"decompositionTreeVisual\",\"projections\":{\"Analyze\":[{\"queryRef\":\"CountNonNull(test veda._id)\"}],\"ExplainBy\":[{\"queryRef\":\"test veda.userYear\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"test veda\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2},\"Name\":\"CountNonNull(test veda._id)\",\"NativeReferenceName\":\"Count of _id\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"userYear\"},\"Name\":\"test veda.userYear\",\"NativeReferenceName\":\"userYear\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2}}}]},\"expansionStates\":[{\"roles\":[\"ExplainBy\"],\"levels\":[{\"queryRefs\":[\"test veda.userYear\"],\"isCollapsed\":true,\"isPinned\":true,\"AIInformation\":{\"method\":\"MaxSplit\"}}],\"root\":{\"identityValues\":null}}],\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"tree\":[{\"properties\":{\"effectiveBarsPerLevel\":{\"expr\":{\"Literal\":{\"Value\":\"6L\"}}},\"density\":{\"expr\":{\"Literal\":{\"Value\":\"'dense'\"}}},\"responsiveLayout\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"connectorType\":{\"expr\":{\"Literal\":{\"Value\":\"'round'\"}}},\"accentColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":5,\"Percent\":0}}}}}}}],\"dataBars\":[{\"properties\":{\"dataBarScalingType\":{\"expr\":{\"Literal\":{\"Value\":\"'topNode'\"}}}}},{\"properties\":{\"dataBarColor\":{\"solid\":{\"color\":{\"expr\":{\"FillRule\":{\"Input\":{\"SelectRef\":{\"ExpressionName\":\"CountNonNull(test veda._id)\"}},\"FillRule\":{\"linearGradient2\":{\"min\":{\"color\":{\"Literal\":{\"Value\":\"'minColor'\"}}},\"max\":{\"color\":{\"Literal\":{\"Value\":\"'maxColor'\"}}},\"nullColoringStrategy\":{\"strategy\":{\"Literal\":{\"Value\":\"'asZero'\"}}}}}}}}}}},\"selector\":{\"data\":[{\"dataViewWildcard\":{\"matchingOption\":0}}],\"metadata\":\"CountNonNull(test veda._id)\"}}],\"analysis\":[{\"properties\":{\"aiMode\":{\"expr\":{\"Literal\":{\"Value\":\"'relative'\"}}}}}],\"insights\":[{\"properties\":{\"isAINode\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}},\"selector\":{\"data\":[{\"scopeId\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Entity\":\"test veda\"}},\"Property\":\"userYear\"}},\"Right\":{\"Literal\":{\"Value\":\"2L\"}}}}}]}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Year Wise'\"}}}}}],\"subTitle\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"''\"}}}}}],\"divider\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"spacing\":[{\"properties\":{\"customizeSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":0,\"Percent\":0}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"18D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 447.83,
+          "width": 286.11,
+          "x": 8.71,
+          "y": 255.01,
+          "z": 5002.00
+        },
+        {
+          "config": "{\"name\":\"c3de4c87144bf9caccea\",\"layouts\":[{\"id\":0,\"position\":{\"x\":307.25805145371595,\"y\":403.0429500850363,\"z\":3000,\"width\":391.8473125826742,\"height\":299.79429311880784,\"tabOrder\":3000}},{\"id\":1,\"position\":{\"x\":0,\"y\":1034,\"z\":3000,\"width\":324,\"height\":247.88571428571424,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredColumnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"test veda.userDepartment\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(test veda._id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"test veda\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"userDepartment\"},\"Name\":\"test veda.userDepartment\",\"NativeReferenceName\":\"Department\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2},\"Name\":\"CountNonNull(test veda._id)\",\"NativeReferenceName\":\"Number Participants\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2}}}]},\"columnProperties\":{\"CountNonNull(test veda._id)\":{\"displayName\":\"Number Participants\"},\"test veda.userDepartment\":{\"displayName\":\"Department\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Number of Participants per Department'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 299.79,
+          "width": 391.85,
+          "x": 307.26,
+          "y": 403.04,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"de174fc38519051e7c31\",\"layouts\":[{\"id\":0,\"position\":{\"x\":8.707718057392759,\"y\":88.32114029641228,\"z\":0,\"width\":286.1107361714764,\"height\":157.98288475555435,\"tabOrder\":0}},{\"id\":1,\"position\":{\"x\":0,\"y\":0,\"z\":0,\"width\":324,\"height\":99.99999999999999,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(test veda._id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"test veda\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2},\"Name\":\"Min(test veda._id)\",\"NativeReferenceName\":\"Total number of participants\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2}}}]},\"columnProperties\":{\"Min(test veda._id)\":{\"displayName\":\"Total number of participants\"}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"vcObjects\":{\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"30D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 157.98,
+          "width": 286.11,
+          "x": 8.71,
+          "y": 88.32,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"e70afeada9f1ed009144\",\"layouts\":[{\"id\":0,\"position\":{\"x\":307.25805145371595,\"y\":88.32114029641228,\"z\":2000,\"width\":391.8473125826742,\"height\":302.2822125637772,\"tabOrder\":1000}},{\"id\":1,\"position\":{\"x\":0,\"y\":108,\"z\":2000,\"width\":324,\"height\":249.9428571428571,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"CountNonNull(test veda._id)\"}],\"Series\":[{\"queryRef\":\"test veda.userGender\"}],\"Category\":[{\"queryRef\":\"test veda.userGender\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"test veda\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"userGender\"},\"Name\":\"test veda.userGender\",\"NativeReferenceName\":\"userGender\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2},\"Name\":\"CountNonNull(test veda._id)\",\"NativeReferenceName\":\"Count of _id\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"_id\"}},\"Function\":2}}}]},\"columnProperties\":{\"test veda.userGender\":{}},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"legend\":[{\"properties\":{\"showTitle\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"titleText\":{\"expr\":{\"Literal\":{\"Value\":\"'Gender distribution of participants'\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Gender distribution of participants'\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"28D\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 302.28,
+          "width": 391.85,
+          "x": 307.26,
+          "y": 88.32,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "AccessibleTidal"
+}

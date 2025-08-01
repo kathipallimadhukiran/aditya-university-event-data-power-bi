@@ -1,0 +1,2094 @@
+cultureInfo en-IN
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "test_veda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "test veda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "veda": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.entity__id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "_ identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "_ credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_team_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userTeamCode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user team code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userTeamCode": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "team code": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user team id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "team id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user team key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "team key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_roll_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userRollNumber"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user roll number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userRollNumber": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "roll number": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user roll no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "roll no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userName"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userName": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "user title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "user label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "user tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_mobile": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userMobile"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user mobile": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userMobile": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mobile": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "moveable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "movable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "portable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "itinerant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "travelling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "traveling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ambulatory": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "active": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "limber": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_college": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userCollege"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user college": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userCollege": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "college": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user academy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "user seminary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "user institution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "academy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seminary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "institution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "user school": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "user university": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "school": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "university": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_email": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userEmail"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user email": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userEmail": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "email": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user correspondence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "correspondence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "user message": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "user communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "message": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userGender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userGender": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "gender": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_department": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userDepartment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user department": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userDepartment": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "department": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "user division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "user unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "user section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "user branch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "user sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_location": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userLocation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user location": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userLocation": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "location": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user venue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "locality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "placement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "scene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "venue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "user place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userYear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_event_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userEventCategory"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user event category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userEventCategory": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "event category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user event classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "event classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "user event class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "user event group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "user event type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "user event grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "user event kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "event class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "event group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_event": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userEvent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user event": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userEvent": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "event": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "user occurrence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "user affair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "user episode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "occurrence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "affair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "episode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "user occasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "user happening": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "user incident": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "user experience": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_teamsize": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userTeamsize"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user teamsize": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userTeamsize": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.user_accomodation": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "userAccomodation"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "user accomodation": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "userAccomodation": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "test_veda.other_college": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "test veda",
+			          "ConceptualProperty": "otherCollege"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "other college": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "otherCollege": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "college": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "other academy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "other seminary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "other institution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "academy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "seminary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "institution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "other school": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "other university": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "school": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "university": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "test_veda_has_user_accomodation": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_accomodation": {
+			          "Target": {
+			            "Entity": "test_veda.user_accomodation"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_accomodation"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_accomodations"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_teamsize": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_teamsize": {
+			          "Target": {
+			            "Entity": "test_veda.user_teamsize"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_teamsize"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_teamsizes"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_event": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_event": {
+			          "Target": {
+			            "Entity": "test_veda.user_event"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_event"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_events"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_event_category": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_event_category": {
+			          "Target": {
+			            "Entity": "test_veda.user_event_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_event_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_event_categories"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_year": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_year": {
+			          "Target": {
+			            "Entity": "test_veda.user_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_years"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_location": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_location": {
+			          "Target": {
+			            "Entity": "test_veda.user_location"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_locations"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_department": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_department": {
+			          "Target": {
+			            "Entity": "test_veda.user_department"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_department"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_departments"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_gender": {
+			          "Target": {
+			            "Entity": "test_veda.user_gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_genders"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_email": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_email": {
+			          "Target": {
+			            "Entity": "test_veda.user_email"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_email"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_emails"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_college": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_college": {
+			          "Target": {
+			            "Entity": "test_veda.user_college"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_college"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_colleges"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_mobile": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_mobile": {
+			          "Target": {
+			            "Entity": "test_veda.user_mobile"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_mobile"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_mobiles"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_name": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_name": {
+			          "Target": {
+			            "Entity": "test_veda.user_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_names"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "test_veda.user_name"
+			            },
+			            "Verbs": [
+			              {
+			                "use": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "test_veda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "user_names_use_test_vedas"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda.user_name"
+			            },
+			            "Object": {
+			              "Role": "test_veda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "user_names_have_test_vedas"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_roll_number": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_roll_number": {
+			          "Target": {
+			            "Entity": "test_veda.user_roll_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_roll_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_roll_numbers"
+			        }
+			      ]
+			    },
+			    "test_veda_has_user_team_code": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_team_code": {
+			          "Target": {
+			            "Entity": "test_veda.user_team_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.user_team_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_user_team_codes"
+			        }
+			      ]
+			    },
+			    "test_veda_has_entity__id": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.entity__id": {
+			          "Target": {
+			            "Entity": "test_veda.entity__id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.entity__id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have__ids"
+			        }
+			      ]
+			    },
+			    "test_veda_in_user_location": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.user_location": {
+			          "Target": {
+			            "Entity": "test_veda.user_location"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "test_veda.user_location"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "test_veda.user_location"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_are_in_user_locations"
+			        }
+			      ]
+			    },
+			    "test_veda_has_other_college": {
+			      "Binding": {
+			        "ConceptualEntity": "test veda"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "test_veda": {
+			          "Target": {
+			            "Entity": "test_veda"
+			          }
+			        },
+			        "test_veda.other_college": {
+			          "Target": {
+			            "Entity": "test_veda.other_college"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "test_veda"
+			            },
+			            "Object": {
+			              "Role": "test_veda.other_college"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "test_vedas_have_other_colleges"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

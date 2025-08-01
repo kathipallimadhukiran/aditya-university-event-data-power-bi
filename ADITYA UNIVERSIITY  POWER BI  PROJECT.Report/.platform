@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "ADITYA UNIVERSIITY  POWER BI  PROJECT"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f6de5355-6cf0-473e-bc9b-db44a180988b"
+  }
+}
